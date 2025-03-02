@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirill-Lotin Konvertori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kirill-Lotin Konvertori</h1>
+        <textarea id="inputText" placeholder="Matn kiriting..."></textarea>
+        <div class="buttons">
+            <button onclick="convertToLatin()">Kirill -> Lotin</button>
+            <button onclick="convertToCyrillic()">Lotin -> Kirill</button>
+            <button onclick="clearText()">Tozalash</button>
+        </div>
+        <textarea id="outputText" placeholder="Natija..." readonly></textarea>
+        <div class="footer">
+            <p>Muallif: Rustamov Faridjon</p>
+            <p>TEL: 94-480-73-13</p>
+            <p>Instagram: @farid_farhodovich</p>
+        </div>
+    </div>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="videoorqa.mp4" type="video/mp4">
+        Sizning brauzeringiz video formatini qo‘llab-quvvatlamaydi.
+    </video>
+    <script src="script.js"></script>
+</body>
+</html>
